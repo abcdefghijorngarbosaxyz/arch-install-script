@@ -18,7 +18,7 @@ systemctl enable NetworkManager
 useradd -m arteis
 echo arteis:password | chpasswd
 
-echo "arteis ALL=(ALL) ALL" >> /etc/sudoers.d/ermanno
+echo "arteis ALL=(ALL) ALL" >> /etc/sudoers.d/arteis
 
 
 printf "\e[1;32mDone! Type exit, umount -a and reboot.\e[0m"
